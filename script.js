@@ -6,10 +6,10 @@ btn.addEventListener("click", function () {
   let num2 = document.getElementById("n2").value;
 
   if (num1 === "" || num2 === "") {
-    document.getElementById("sum").innerText = "";
+    document.getElementById("Sum").innerText = "";
     return;
   }
 
   let sum = Number(num1) + Number(num2);
-  document.getElementById("sum").innerText = "Sum: " + sum;
+  document.getElementById("Sum").innerText = sum;
 });
